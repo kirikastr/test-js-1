@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="bg-light">
+	<div class="header"> <!--шапка-->
+		<div class="col-9 mx-auto">
+			<div class="row">  <!--див с кино-->
+				<div class="col-2">
+					<img src="logo.png" class="w-100">
+				</div>
+				<div class="col-4 pt-4">
+					<input type="" name="" class="form-control" placeholder="фильмы, сериалы, персоны">
+				</div>		
+			</div>
+		</div>
+	</div>
+	<div class="col-9 mx-auto">
+		<div class="row main">
+			<div class="col-3 text-">
+				<img src="300x450.webp" class="w-100 img">
+			</div>
+			<div class="col-6">
+				<h1 class="name">Душа</h1>
+				<p>О фильме</p>
+				<p>Уже немолодой школьный учитель музыки Джо Гарднер всю жизнь мечтал выступать на сцене в составе джазового ансамбля. Однажды он успешно проходит прослушивание у известной клубной певицы и, возвращаясь домой вне себя от счастья, падает в люк и умирает. Теперь у Джо одна дорога - в Великое После, но он сбегает с идущего в вечность эскалатора и случайно попадает в Великое До. Тут новенькие души обретают себя, и у будущих людей зарождаются увлечения, мечты и интересы. Джо становится наставником упрямой души 22, которая уже много веков не может найти свою искру и отправиться на Землю.</p>
+				<a href="https://www.youtube.com/watch?v=vsb8762mE6Q" class="link">Посмотреть трейлер</a>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		document.querySelector(".main").style.background = "gray"; 
+		document.querySelector(".header").style.background = "black"; 
+
+		document.querySelector(".img").src = "3.jpg";
+
+		document.querySelector(".name").innerHTML = "Джокер"
+
+		document.querySelector(".link").href = "https://youtu.be/VCMaJLwChfs"
+
+		document.querySelector(".main").style.marginTop = "50px"
+	</script>
+</body>
+</html>
+
